@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #e78383;
+}
+
+h1 {
+  text-align: center;
+}
+
+#reloadBtn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#reloadBtn:hover {
+  background-color: #0056b3;
+}
+
+#user-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.user-card {
+  background: rgb(158, 228, 199);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(29, 29, 29, 0.1);
+}
